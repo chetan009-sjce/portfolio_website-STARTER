@@ -23,6 +23,7 @@ export const LinkItem = styled.a`
 	transition: .3s ease;
 	position: relative;
 	left: 0;
+	font-family:Blippo;
 
 	&:hover {
 		color: orange;
@@ -150,8 +151,9 @@ export const LinkTitle = styled.h4`
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	color: pink;
 	margin-bottom: 16px;
+	font-family:Bahnschrift;
 
 	@media ${props => props.theme.breakpoints.sm} {
 		font-size: 10px;

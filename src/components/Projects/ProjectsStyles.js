@@ -35,6 +35,7 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
+ 
 
 `;
 
@@ -42,7 +43,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color:whitesmoke;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -52,13 +53,13 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background: cyan;
 `;
 
 export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
-  color: #dce3e7;
+  color:red;
   font-family: 'Droid Serif', serif;
   font-size: 13px;
   font-style: italic;
@@ -69,7 +70,8 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
+  font-family:Consolas;
+  color: grey;
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
@@ -84,6 +86,7 @@ export const UtilityList = styled.ul`
   list-style-type: none;
   padding: 0;
   display: flex;
+  font-family:Corbel;
   justify-content: space-around;
   margin: 2.5rem 0;
 `;
@@ -94,6 +97,7 @@ font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
+font-family:Corbel;
 transition: 0.5s;
 &:hover{
   background: #801414;

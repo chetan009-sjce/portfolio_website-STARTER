@@ -10,9 +10,10 @@ export const CarouselContainer = styled.ul`
   justify-content: space-between; 
   /* overflow-x: hidden; */
 
-  margin-left: 32px;
+  margin-left: 0px;
   &:first-of-type{
     margin-left: 0px;
+    margin-right: 0px;
   }
 
   margin-bottom: 80px;
@@ -51,7 +52,7 @@ export const CarouselItem = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
     min-width: 120px;
-    background: red;
+    background: black;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
@@ -105,6 +106,7 @@ export const CarouselItemText = styled.p`
   letter-spacing: 0.02em;
   color: pink;
   padding-right: 16px;
+  font-family:Bahnschrift;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 12px;

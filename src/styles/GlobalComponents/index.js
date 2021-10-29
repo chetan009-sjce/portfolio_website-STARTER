@@ -30,7 +30,7 @@ export const SectionTitle = styled.h2`
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, #FFFFFF 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+  background: linear-gradient(121.57deg, orange 18.77%,#ebfeb8 50%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -60,7 +60,8 @@ export const SectionText = styled.p`
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
+  font-family:Gabriola;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -81,9 +82,9 @@ export const SectionDivider = styled.div`
   width: 64px;
   height: 6px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: purple;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, red 0%, #945DD6 100%)' :
     'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
@@ -102,8 +103,8 @@ export const SectionSubText = styled.p`
   max-width: 800px;
   font-weight: 300;
   font-size: 18px;
-  line-height: 32px;
-  color: rgba(255, 255, 255, 0.75);
+  line-height: 42px;
+  color: pink;
 
 @media ${(props) => props.theme.breakpoints.md} {
     max-width: 672px;
@@ -118,8 +119,8 @@ export const SectionSubText = styled.p`
 `
 export const SecondaryBtn = styled.button`
   color: #FFF;
-  background: none;
-  border: 1px solid rgba(255, 255, 255, 0.33);
+  background: green;
+  border: 1px solid red;
   box-sizing: border-box;
   border-radius: 999px;
   padding: 16px 24px;
@@ -142,7 +143,7 @@ export const SecondaryBtn = styled.button`
   }
 
   &:active {
-    background: #e0e4eb;
+    background: white;
     border: 1px solid #304169;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
   }
@@ -176,13 +177,15 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: #fff;
+  color: white;
   background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
+  font-family:Times New Roman;
+  
 
   @media ${(props) => props.theme.breakpoints.md} {
     width: ${({ alt }) => alt ? '150px' : '184px'};
@@ -202,14 +205,14 @@ export const ButtonBack = styled.div`
 export const ButtonFront = styled.button`
   border: none;
   border-radius: 50px;
-  color: #fff;
+  color: black;
   display: flex;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, black 100%)' : 'linear-gradient(270deg, cyan 0%, brown 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
@@ -221,6 +224,7 @@ export const ButtonFront = styled.button`
 
   &:hover {
     opacity: 0;
+    
   }
   &:focus {
     outline: none;
@@ -228,6 +232,7 @@ export const ButtonFront = styled.button`
   &:active {
     opacity: 1;
     box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+    
   }
 
   &:disabled{
