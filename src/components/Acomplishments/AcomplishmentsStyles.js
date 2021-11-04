@@ -71,8 +71,8 @@ export const BoxText = styled.p`
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.02em;
-  color: grey;
-  font-family:cursive;
+  color: #BDBDBD;
+  font-family:Helvetica;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;

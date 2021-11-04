@@ -23,18 +23,19 @@ export const Section = styled.section`
     flex-direction: column;
   }
 `
+// 
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '50px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
-  background: linear-gradient(121.57deg, orange 18.77%,#ebfeb8 50%);
+  background: linear-gradient(121.57deg, #616161  18.77%,#F5F5F5 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
-  padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  padding: ${(props) => props.main ? '20px 10px 0' : '0'};
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -56,12 +57,13 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
+  padding-left: 1.5rem;
   color: white;
-  font-family:Gabriola;
+  font-family:Helvetica;
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -77,15 +79,16 @@ export const SectionText = styled.p`
   }
 `
 
+
 export const SectionDivider = styled.div`
 
   width: 64px;
   height: 6px;
   border-radius: 10px;
-  background-color: purple;
+  background-color: #E0E0E0;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, red 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #E0E0E0 0%, #E0E0E0 100%)' :
+    'linear-gradient(270deg, #E0E0E0 0%,#E0E0E0 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -177,14 +180,14 @@ export const ButtonBack = styled.div`
   align-items: center;
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
-  color: white;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+  color: black;
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #9E9E9E 0%, #E0E0E0 100%)' : 'linear-gradient(270deg, #EEEEEE  0%, #EEEEEE 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
   overflow: hidden;
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
-  font-family:Times New Roman;
+  font-family:Tahoma;
   
 
   @media ${(props) => props.theme.breakpoints.md} {
@@ -212,7 +215,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, black 100%)' : 'linear-gradient(270deg, cyan 0%, brown 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #9E9E9E 0%,#9E9E9E 100%)' : 'linear-gradient(270deg,#9E9E9E 0%,#9E9E9E 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};

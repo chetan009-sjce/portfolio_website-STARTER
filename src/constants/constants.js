@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Cohasna',
-    description: "Using HTML,CSS,javascript and PHP .you'll learn how to build a website  - from start to finish. The wbsite is called cohasna and it is a simple social website which connects ppl and hospitals that allows users to post requests or even donate via registering and seeing requests.",
+    description: "Cohasna  is a simple social website which connects ppl and hospitals that allows users to post requests or even donate via registering and seeing requests.",
       image: '/images/1.png',
       tags: ['HTML', 'CSS', 'BOOTSTRAP', 'JS','PHP'],
     source: 'https://github.com/chetan009-sjce',
@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'ML you-tube addview prediction',
-    description: "This project is to predict number of views a add ges based on number of likes and dislikes comments ,views a video has got....",
+    description: "Basically it is a ML project This project is to predict number of views a add gets based on number of likes,dislikes,comments and views a video has got....",
     image: '/images/4.jpg',
     tags: ['Python', 'Models,libraries', 'ML'],
     source: 'https://github.com/chetan009-sjce',
@@ -38,8 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked on programming languages', },
+  { year: 2017, text: 'Stepped to Start my journey', },
+  { year: 2018, text: 'Worked on programming langs', },
   { year: 2019, text: 'worked on web development tools', },
   { year: 2020, text: 'Shared my projects to github', },
   { year: 2021, text: 'Started working as an intern', },

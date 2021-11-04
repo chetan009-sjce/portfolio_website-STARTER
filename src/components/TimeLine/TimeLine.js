@@ -43,7 +43,10 @@ const Timeline = () => {
   // }, []);
 
   return (
+    
     <Section id="about">
+      <SectionDivider/>
+      <br />
       <SectionTitle>About</SectionTitle>
       <SectionText>
       I am learner passionate about web development,cloud computing and AI.My interests are in full stack,software,AI and ML,Cloud... 

@@ -5,7 +5,7 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <section id="tech">
-    <SectionDivider/>
+    
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range of technologies in the web development,Cloud,AI,ML
@@ -13,7 +13,7 @@ const Technologies = () =>  (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem"/>
+        <DiReact size="3rem"color="white"/>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -23,7 +23,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiCloud9 size="3rem"/>
+        <DiCloud9 size="3rem"color="white"/>
         <ListContainer>
           <ListTitle>CLOUD</ListTitle>
           <ListParagraph>
@@ -33,7 +33,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiPython size="3rem"/>
+        <DiPython size="3rem" color="white"/>
         <ListContainer>
           <ListTitle>Python Bootcamp</ListTitle>
           <ListParagraph>
@@ -43,7 +43,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiDropbox size="3rem"/>
+        <DiDropbox size="3rem"color="white"/>
         <ListContainer>
           <ListTitle>IEEE Robotics</ListTitle>
           <ListParagraph>
@@ -53,7 +53,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="3rem"/>
+        <DiZend size="3rem" color="white"/>
         <ListContainer>
           <ListTitle>Programming langs</ListTitle>
           <ListParagraph>
@@ -63,7 +63,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem"/>
+        <DiFirebase size="3rem"color="white"/>
         <ListContainer>
           <ListTitle>Backend-End</ListTitle>
           <ListParagraph>

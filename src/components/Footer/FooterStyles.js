@@ -18,15 +18,15 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: whitesmoke;
+	color: #9E9E9E;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
-	font-family:Blippo;
+	font-family:Bahnschrift;
 
 	&:hover {
-		color: orange;
+		color: white;
 		left: 6px;
 	}
 
@@ -84,7 +84,7 @@ export const CompanyContainer = styled.div`
 
 
 export const Slogan = styled.p`
-	color: #7f7878;
+	color: #E0E0E0;
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;
@@ -151,7 +151,7 @@ export const LinkTitle = styled.h4`
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: pink;
+	color: white;
 	margin-bottom: 16px;
 	font-family:Bahnschrift;
 
