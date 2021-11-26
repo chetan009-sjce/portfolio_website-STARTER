@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  padding: ${(props) => props.nopadding ? "0" : "25px 48px 0" } ;
   margin: 0 auto;
   max-width: 1040px;
   box-sizing: content-box;
@@ -28,7 +28,7 @@ export const Section = styled.section`
 export const SectionTitle = styled.h2`
   font-weight: 800;
   font-size: ${(props) => props.main ? '50px' : '56px'};
-  line-height: ${(props) => props.main ? '72px' : '56px'};
+  line-height: ${(props) => props.main ? '72px' : '63px'};
   width: max-content;
   max-width: 100%;
   background: linear-gradient(121.57deg, #616161  18.77%,#F5F5F5 60%);
@@ -57,7 +57,7 @@ export const SectionTitle = styled.h2`
 
 export const SectionText = styled.p`
   max-width: 800px;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 40px;
   font-weight: 300;
   padding-bottom: 3.6rem;
