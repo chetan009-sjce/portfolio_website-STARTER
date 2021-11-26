@@ -4,7 +4,7 @@ import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <section id="tech">
+  <Section id="tech">
     
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
@@ -18,7 +18,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            HTML,CSS,Bootstrap and React.js
+            HTML,CSS,Bootstrap and Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,7 +38,7 @@ const Technologies = () =>  (
           <ListTitle>Python Bootcamp</ListTitle>
           <ListParagraph>
             Built around<br/>
-            3 data analysis projects and 5 working games.
+            3 data analysis projects and 3 working games.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -68,12 +68,12 @@ const Technologies = () =>  (
           <ListTitle>Backend-End</ListTitle>
           <ListParagraph>
             Experience with <br/>
-            PHP,SQL and Databases
+            PHP,SQL and Databases.
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
-  </section>
+  </Section>
 );
 
 export default Technologies;

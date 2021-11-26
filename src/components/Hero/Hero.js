@@ -7,14 +7,15 @@ import { LeftSection } from './HeroStyles';
 const Hero = (props) => (
 <Section row nopadding>
   <LeftSection>
-    <SectionTitle main center>
+    <SectionTitle>
       Welcome To <br />
       My Personal Portfolio
     </SectionTitle>
     <SectionText>
-    A developer is an individual that builds and create software and applications. He or she writes, debugs and executes the source code of a software application.
+    I am Chetan Reddy...an engineer from Information science Dept. I enjoy nothing more than learning the trends that technology is taking in order to work more efficiently.Passionate in AI,ML and Web development....
+    
     </SectionText>
-    <Button onClick={()=>window.location="https://google.com"}>Learn More</Button>
+    <Button onClick={()=>window.location="https://github.com/chetan009-sjce"}>Learn More</Button>
   </LeftSection>
 </Section>
 );

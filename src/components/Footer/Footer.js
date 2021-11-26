@@ -9,17 +9,17 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
       <LinkColumn><LinkTitle>Call</LinkTitle>
-      <LinkItem href="tel:111-111-1111">111-444-2222</LinkItem>
+      <LinkItem href="tel:111-111-1111">8105076961</LinkItem>
       
       </LinkColumn>
       <LinkColumn><LinkTitle>Email</LinkTitle>
-      <LinkItem href="mailto:contact@pklessons12@gmail.com">pklessons12@gmail.com</LinkItem>
+      <LinkItem href="mailto:contact@pklessons12@gmail.com">chetanreddy99450@gmail.com</LinkItem>
       
       </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Designed by Chetan[Bobby]</Slogan>
+          <Slogan>Enthusiastic and Passionate Learner</Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://www.facebook.com/chetanreddy.c.kadda">

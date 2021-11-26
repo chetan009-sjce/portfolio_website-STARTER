@@ -7,7 +7,7 @@ import { projects } from '../../constants/constants';
 
 
 const Projects = () => (
-  <section nopadding id="projects">
+  <Section nopadding id="projects">
     
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
@@ -33,7 +33,7 @@ const Projects = () => (
         </BlogCard>
       ))}
     </GridContainer>
-  </section>
+  </Section>
 );
 
 export default Projects;

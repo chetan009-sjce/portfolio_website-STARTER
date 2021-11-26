@@ -38,8 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Stepped to Start my journey', },
-  { year: 2018, text: 'Worked on programming langs', },
+  { year: 2017, text: 'Completed my School education', },
+  { year: 2018, text: 'Started journey as science student in PUC', },
   { year: 2019, text: 'worked on web development tools', },
   { year: 2020, text: 'Shared my projects to github', },
   { year: 2021, text: 'Started working as an intern', },

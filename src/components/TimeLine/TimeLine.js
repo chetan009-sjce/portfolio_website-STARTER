@@ -49,7 +49,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About</SectionTitle>
       <SectionText>
-      I am learner passionate about web development,cloud computing and AI.My interests are in full stack,software,AI and ML,Cloud... 
+      I am learner passionate about web development,cloud computing.My interests are in full stack,AI and ML... 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
